@@ -1,8 +1,8 @@
 <?php
+
 session_start();
 
 include 'functions.php';
-
 
 
 // Menangani aksi berdasarkan request
@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
              break;
 
 
-
+        
 
         case 'update_user':
              $id = $_POST['id'];

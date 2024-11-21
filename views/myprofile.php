@@ -18,7 +18,7 @@
         <?php include 'components/sidebar.php'; ?>
         <!-- Main Content -->
         <div class="flex-1 ml-72 mt-20 p-8">
-            <h1 class="text-2xl font-bold">Menu Profil Saya</h1>
+            <h1 class="text-2xl font-bold">Menu  Saya</h1>
             <nav class="flex mt-2" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                 <li class="inline-flex items-center">
@@ -52,34 +52,34 @@
                 <form>
                     <div class="grid gap-6 mb-6 md:grid-cols-2">
                         <div>
-                            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 ">Nama Depan</label>
-                            <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="John" required />
+                            <label for="nama" class="block mb-2 text-sm font-medium text-gray-900 ">Nama</label>
+                            <input type="text" id="nama" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Masukkan Nama" required />
                         </div>
-                        <div>
+                        <!-- <div>
                             <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 ">Nama Belakang</label>
                             <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Doe" required />
-                        </div>
+                        </div> -->
                         <div>
-                            <label for="company" class="block mb-2 text-sm font-medium text-gray-900 ">Jurusan</label>
-                            <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Flowbite" required />
+                            <label for="NPM" class="block mb-2 text-sm font-medium text-gray-900 ">NPM</label>
+                            <input type="text" id="NPM" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Flowbite" required />
                         </div>  
                         <div>
-                            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 ">Nomor HP</label>
-                            <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+                            <label for="Email" class="block mb-2 text-sm font-medium text-gray-900 ">Email</label>
+                            <input type="tel" id="Email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
                         </div>
                     </div>
                     <div class="mb-6">
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Alamat Email</label>
-                        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="john.doe@company.com" required />
+                        <label for="jurusan" class="block mb-2 text-sm font-medium text-gray-900 ">Jurusan</label>
+                        <input type="jurusan" id="jurusan" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="john.doe@NPM.com" required />
                     </div> 
-                    <div class="mb-6">
+                    <!-- <div class="mb-6">
                         <label for="password" class="block mb-2 text-sm font-medium text-gray-900 ">Password</label>
                         <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="•••••••••" required />
                     </div> 
                     <div class="mb-6">
                         <label for="confirm_password" class="block mb-2 text-sm font-medium text-gray-900 ">Konfirmasi password</label>
                         <input type="password" id="confirm_password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="•••••••••" required />
-                    </div> 
+                    </div>  -->
                     <div class="flex items-start mb-6">
                         <div class="flex items-center h-5">
                         <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
